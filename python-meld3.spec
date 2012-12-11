@@ -45,3 +45,10 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 %doc README.txt COPYRIGHT.txt LICENSE.txt CHANGES.txt
 %{python_sitearch}/*
+
+
+%changelog
+* Tue Nov 01 2011 Alexander Khrukin <akhrukin@mandriva.org> 0.6.7-1mdv2011.0
++ Revision: 709297
+- imported package python-meld3
+
