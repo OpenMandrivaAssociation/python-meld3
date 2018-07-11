@@ -1,2 +1,4 @@
+removed_sources:
+  meld3-0.6.7.tar.gz: aec171f40390518073c846b791fa091543aa5a27
 sources:
-  "meld3-0.6.7.tar.gz": aec171f40390518073c846b791fa091543aa5a27
+  meld3-1.0.2.tar.gz: 01e90ab9a97b68a202e95d4460e4bcea3d929495
