@@ -22,14 +22,10 @@ http://www.entrian.com/PyMeld for a treatise on the benefits of this pattern.
 %setup -q -n meld3-%{version}
 
 %build
-CFLAGS="%{optflags}" %{__python} setup.py build
+%{__python} setup.py build
 
 %install
-#rm -rf %{buildroot}
-#export USE_MELD3_EXTENSION_MODULES=True
 %{__python} setup.py install --skip-build --root %{buildroot}
-#sed -i s'/^#!.*//' $( find %{buildroot}/%{python_sitearch}/meld3/ -type f)
-#chmod 0755 %{buildroot}/%{python_sitearch}/meld3/cmeld3.so
 
 #%%check
 #%%{__python} meld3/test_meld3.py
