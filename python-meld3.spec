@@ -5,7 +5,7 @@ Release:	1
 
 License:	BSD
 Group:		Development/Python 
-URL:		http://www.plope.com/software/meld3/
+URL:		https://www.plope.com/software/meld3/
 Source0:	http://pypi.python.org/packages/source/m/meld3/meld3-%{version}.tar.gz
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
