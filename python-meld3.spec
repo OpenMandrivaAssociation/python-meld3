@@ -1,6 +1,6 @@
 Summary:	HTML/XML templating system for Python
 Name:		python-meld3
-Version:	1.0.2
+Version:	2.0.1
 Release:	1
 
 License:	BSD
@@ -19,7 +19,7 @@ markup and dynamic rendering logic separate from one another. See
 http://www.entrian.com/PyMeld for a treatise on the benefits of this pattern.
 
 %prep
-%setup -q -n meld3-%{version}
+%setup -q -n meld3-2.0.1
 
 %build
 %{__python} setup.py build
