@@ -1,7 +1,7 @@
 Summary:	HTML/XML templating system for Python
 Name:		python-meld3
 Version:	2.0.1
-Release:	1
+Release:	2
 
 License:	BSD
 Group:		Development/Python 
